@@ -1,108 +1,94 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 940px; 
-  padding: 0 10px;
-}
-video{
-    width:100vw;
-clear:both;
-
-    
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
 }
 
-.{
-  margin: 0;
-  paddding: 0;
+video {
+    width: 100%;
+    clear: both;
 }
 
 .header {
-height: 90vh;
-  width: 150vw;
-  /*margin: 5vh 5vw;*/
-  background-color: #eee;
-  background-position: center;
-  background-size: cover;
-  
+    height: 99%;
+    width: 100%;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
 }
-
 
 .header .container {
-  position:absolute;
-  top: 20%;
-    left:10%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
     line-height: normal;
-    width: auto;
-    
-    
+    width: 100%;
 }
-h1 {
-  color: #fff;
-  line-height: 100px; 
-    width:100vw;
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase; 
-}
+
 .header h1 {
-  color: #fff;
-  line-height: 100px; 
-    width:100vw;
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase; 
+    color: #fff;
+    line-height: 100px;
+    width: 100%;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    opacity: 0.95;
 }
 
 @media (min-width:850px) {
-  .header h1 {
-    font-size: 120px;
-  }
+    .header h1 {
+        font-size: 120px;
+    }
 }
 
 .header p {
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 8px;
-  margin-bottom: 40px;
-  margin-top: 0;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
     position: absolute;
-    top:70%;
-  text-transform: uppercase; 
+    top: 70%;
+    text-transform: uppercase;
 }
 
 .btn {
-  color: #fff;
-  background: #000;
-  padding: 10px 40px;
-  text-decoration: none; 
-  transition: background .5s; 
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none;
+    transition: background .5s;
 }
 
-.nav { 
-  background: #000;
-  height: 80px; 
-  width: 100%;
+.nav {
+    height: 50px;
+    width: 100%;
     position: absolute;
 }
 
 .nav ul {
-  height: 50px;
-  list-style: none;
-  margin: 0 auto; 
-  padding: 0;
+    height: 60px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
+
+/*
 .nav ul li {
   color: #fff;
   display: inline-block; 
@@ -112,73 +98,199 @@ h1 {
   padding: 0 10px;
   transition: background .5s; 
 }
+*/
 
-.btn:hover, .nav ul li:hover {
-  background: #117bff;
-  cursor: pointer; 
-  transition: background .5s;  
+.btn:hover,
+.nav ul li:hover {
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.container1 {
+    margin: 80px auto;
+    margin-top: -5%;
+    margin-left: 25vw;
+    margin-bottom: 80px
 }
 
 .main .container {
-  margin: 80px auto;
+    margin: 10px auto;
+    font-size: 150%;
 }
 
 .main img {
-  float: left;
-  margin: 50px 80px 50px 0;
+    float: left;
+    margin: 80px;
+    width: 12vw;
+    margin-top: 4%;
+    margin-left: auto;
+    height: 200px;
 }
 
 .jumbotron {
-  background: url(http://buzzghana.com/wp-content/uploads/2014/11/Accra-Ghana20.jpg) center center;
-  background-size: cover;
-  height: 600px; 
+    background: url(../Projectfiles/images/independencearchbeneath.jpg) center center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
 }
 
 .jumbotron .container {
-  position: relative;
-  top: 220px;
+    position: relative;
+    top: 220px;
 }
 
 .jumbotron h2 {
-  color: #fff;
-  text-align: right; 
+    color: #fff;
+    text-align: right;
 }
 
 .jumbotron p {
-  color: #fff; 
-  text-align: right; 
+    color: #fff;
+    text-align: right;
 }
 
 .jumbotron .btn {
-  margin: 10px 0 0;
-  float: right; 
+    margin: 10px 0 0;
+    float: right;
 }
 
-.footer { 
-  background: #000;
-  height: 80px; 
-  padding-bottom: 50px;
+.footer {
+    background: #000;
+    height: 80px;
+    padding-bottom: 50px;
 }
 
-.footer p { 
-  color: #fff;
-  font-size: 14px;  
-  height: 80px; 
-  line-height: 80px;
-  margin: 0;  
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
 }
 
 @media (max-width: 500px) {
-  .header h1 {
-    font-size: 50px;
-    line-height: 64px;
-  }
+    .header h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .main,
+    .jumbotron {
+        padding: 0 30px;
+    }
+    .main img {
+        width: 100%;
+    }
+}
 
-  .main, .jumbotron {
-    padding: 0 30px;
-  }
+.mtppeopleheader {
+    height: 40vw;
+    width: 100vw;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    animation: image2 15s infinite alternate;
+}
 
-  .main img {
-    width: 100%;
-  }
+@keyframes image2 {
+    0% {
+        background-image: url("../Projectfiles/images/mtp2.jpeg");
+    }
+    50% {
+        background-image: url("../Projectfiles/images/mtp4.jpg");
+    }
+    100% {
+        background-image: url("../Projectfiles/images/mtp8.jpg");
+    }
+}
+
+.container3 {
+    margin: 120px;
+    margin-top: 30%;
+    margin-left: 15vw;
+}
+
+.cultureheader {
+    height: 40vw;
+    width: 100vw;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    animation: image 15s infinite alternate;
+}
+
+@-webkit-keyframes image {
+    0% {
+        background-image: url("../Projectfiles/images/mtp3.jpg");
+    }
+    50% {
+        background-image: url("../Projectfiles/images/mtp.jpg");
+    }
+    100% {
+        background-image: url("../Projectfiles/images/mtp7.jpg");
+    }
+}
+
+.wtdbackground {
+    background-image: url("../Projectfiles/images/AdobeStock_165793850.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.savbackground {
+    background-image: url("../Projectfiles/images/.AdobeStock_244095598.jpeg.icloud");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.atrbackground {
+    background-image: url("../Projectfiles/images/AdobeStock_75565421.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cubackground {
+    background-image: url("../Projectfiles/images/image6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
